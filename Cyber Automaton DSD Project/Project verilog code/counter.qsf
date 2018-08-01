@@ -1,0 +1,173 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+# Date created = 08:45:37  November 23, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		counter_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY counter
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:45:37  NOVEMBER 23, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.1.0
+set_global_assignment -name VERILOG_FILE Verilog1.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_A7 -to reset
+set_location_assignment PIN_P11 -to clock
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_global_assignment -name CDF_FILE output_files/Chain3.cdf
+set_global_assignment -name CDF_FILE output_files/Chain4.cdf
+set_global_assignment -name CDF_FILE output_files/Chain12.cdf
+set_global_assignment -name CDF_FILE output_files/Chain14.cdf
+set_global_assignment -name CDF_FILE output_files/Chain16.cdf
+set_location_assignment PIN_C10 -to sw1
+set_global_assignment -name CDF_FILE output_files/Chain17.cdf
+set_location_assignment PIN_C11 -to sw2
+set_location_assignment PIN_D12 -to sw3
+set_location_assignment PIN_C12 -to sw4
+set_location_assignment PIN_A12 -to sw5
+set_location_assignment PIN_B12 -to sw6
+set_location_assignment PIN_A13 -to sw7
+set_location_assignment PIN_A14 -to sw8
+set_global_assignment -name CDF_FILE output_files/Chain21.cdf
+set_global_assignment -name CDF_FILE output_files/Chain25.cdf
+set_global_assignment -name CDF_FILE output_files/Chain26.cdf
+set_global_assignment -name CDF_FILE output_files/Chain27.cdf
+set_global_assignment -name CDF_FILE output_files/Chain35.cdf
+set_global_assignment -name CDF_FILE output_files/Chain36.cdf
+set_global_assignment -name CDF_FILE output_files/Chain38.cdf
+set_global_assignment -name CDF_FILE output_files/Chain41.cdf
+set_global_assignment -name CDF_FILE output_files/Chain42.cdf
+set_global_assignment -name CDF_FILE output_files/Chain45.cdf
+set_global_assignment -name CDF_FILE output_files/Chain46.cdf
+set_global_assignment -name CDF_FILE output_files/Chain47.cdf
+set_global_assignment -name CDF_FILE output_files/Chain48.cdf
+set_global_assignment -name CDF_FILE output_files/Chain49.cdf
+set_global_assignment -name CDF_FILE output_files/Chain51.cdf
+set_global_assignment -name CDF_FILE output_files/Chain52.cdf
+set_global_assignment -name CDF_FILE output_files/Chain53.cdf
+set_global_assignment -name CDF_FILE output_files/Chain54.cdf
+set_global_assignment -name CDF_FILE output_files/Chain56.cdf
+set_global_assignment -name CDF_FILE output_files/Chain57.cdf
+set_global_assignment -name CDF_FILE output_files/Chain58.cdf
+set_global_assignment -name CDF_FILE output_files/Chain59.cdf
+set_global_assignment -name CDF_FILE output_files/Chain60.cdf
+set_global_assignment -name CDF_FILE output_files/Chain61.cdf
+set_global_assignment -name CDF_FILE output_files/Chain63.cdf
+set_global_assignment -name CDF_FILE output_files/Chain64.cdf
+set_global_assignment -name CDF_FILE output_files/Chain65.cdf
+set_global_assignment -name CDF_FILE output_files/Chain66.cdf
+set_global_assignment -name CDF_FILE output_files/Chain68.cdf
+set_global_assignment -name CDF_FILE output_files/Chain69.cdf
+set_global_assignment -name CDF_FILE output_files/Chain70.cdf
+set_global_assignment -name CDF_FILE output_files/Chain71.cdf
+set_global_assignment -name CDF_FILE output_files/Chain72.cdf
+set_global_assignment -name CDF_FILE output_files/Chain73.cdf
+set_global_assignment -name CDF_FILE output_files/Chain75.cdf
+set_global_assignment -name CDF_FILE output_files/Chain76.cdf
+set_global_assignment -name CDF_FILE output_files/Chain77.cdf
+set_global_assignment -name CDF_FILE output_files/Chain78.cdf
+set_global_assignment -name CDF_FILE output_files/Chain79.cdf
+set_global_assignment -name CDF_FILE output_files/Chain81.cdf
+set_global_assignment -name CDF_FILE output_files/Chain82.cdf
+set_global_assignment -name CDF_FILE output_files/Chain83.cdf
+set_global_assignment -name CDF_FILE output_files/Chain84.cdf
+set_global_assignment -name CDF_FILE output_files/Chain85.cdf
+set_global_assignment -name CDF_FILE output_files/Chain87.cdf
+set_global_assignment -name CDF_FILE output_files/Chain88.cdf
+set_global_assignment -name CDF_FILE output_files/Chain89.cdf
+set_global_assignment -name CDF_FILE output_files/Chain90.cdf
+set_global_assignment -name CDF_FILE output_files/Chain91.cdf
+set_global_assignment -name CDF_FILE output_files/Chain92.cdf
+set_global_assignment -name CDF_FILE output_files/Chain93.cdf
+set_global_assignment -name CDF_FILE output_files/Chain94.cdf
+set_global_assignment -name CDF_FILE output_files/Chain95.cdf
+set_global_assignment -name CDF_FILE output_files/Chain96.cdf
+set_global_assignment -name CDF_FILE output_files/Chain5.cdf
+set_global_assignment -name CDF_FILE output_files/Chain6.cdf
+set_global_assignment -name CDF_FILE output_files/Chain8.cdf
+set_global_assignment -name CDF_FILE output_files/Chain10.cdf
+set_global_assignment -name CDF_FILE output_files/Chain11.cdf
+set_global_assignment -name CDF_FILE output_files/Chain13.cdf
+set_global_assignment -name CDF_FILE output_files/Chain15.cdf
+set_global_assignment -name CDF_FILE output_files/Chain18.cdf
+set_global_assignment -name CDF_FILE output_files/Chain20.cdf
+set_global_assignment -name CDF_FILE output_files/Chain22.cdf
+set_global_assignment -name CDF_FILE output_files/Chain23.cdf
+set_global_assignment -name CDF_FILE output_files/Chain28.cdf
+set_global_assignment -name CDF_FILE output_files/Chain29.cdf
+set_global_assignment -name CDF_FILE output_files/Chain30.cdf
+set_global_assignment -name CDF_FILE output_files/Chain31.cdf
+set_global_assignment -name CDF_FILE output_files/Chain32.cdf
+set_global_assignment -name CDF_FILE output_files/Chain33.cdf
+set_global_assignment -name CDF_FILE output_files/Chain34.cdf
+set_global_assignment -name CDF_FILE output_files/Chain37.cdf
+set_global_assignment -name CDF_FILE output_files/Chain39.cdf
+set_global_assignment -name CDF_FILE output_files/Chain40.cdf
+set_global_assignment -name CDF_FILE output_files/Chain7.cdf
+set_global_assignment -name CDF_FILE output_files/Chain9.cdf
+set_global_assignment -name CDF_FILE output_files/Chain19.cdf
+set_global_assignment -name CDF_FILE output_files/Chain24.cdf
+set_global_assignment -name CDF_FILE output_files/Chain43.cdf
+set_global_assignment -name CDF_FILE output_files/Chain44.cdf
+set_location_assignment PIN_V10 -to stepperPins1[0]
+set_location_assignment PIN_W10 -to stepperPins1[1]
+set_location_assignment PIN_V9 -to stepperPins1[2]
+set_location_assignment PIN_W9 -to stepperPins1[3]
+set_location_assignment PIN_V8 -to stepperPins2[0]
+set_location_assignment PIN_W8 -to stepperPins2[1]
+set_location_assignment PIN_V7 -to stepperPins2[2]
+set_location_assignment PIN_W7 -to stepperPins2[3]
+set_location_assignment PIN_W5 -to stepperPins3[0]
+set_location_assignment PIN_AA15 -to stepperPins3[1]
+set_location_assignment PIN_AA14 -to stepperPins3[2]
+set_location_assignment PIN_W13 -to stepperPins3[3]
+set_location_assignment PIN_W12 -to stepperPins4[0]
+set_location_assignment PIN_AB13 -to stepperPins4[1]
+set_location_assignment PIN_AB12 -to stepperPins4[2]
+set_location_assignment PIN_Y11 -to stepperPins4[3]
+set_location_assignment PIN_AB11 -to servoPin
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
